@@ -1,0 +1,57 @@
+.board {
+	display: flex;
+	padding: 30px;
+	width: 750px;
+	background: #01257d;
+	border-radius: 5px;
+}
+
+.board * {
+	font: sans-serif;
+}
+
+.board-column {
+	flex: 1;
+}
+
+.board-column:not(:last-child) {
+	margin-right: 30px;
+}
+
+.board-column-title {
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: white;
+	user-select: none;
+}
+
+.board-item-input {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	color: black;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.board-dropzone {
+	height: 10px;
+	transition: background 0.15s, height 0.15s;
+}
+
+.board-dropzone-active {
+	height: 20px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.board-add-item {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 5px;
+}
+
+/* #00ffff */
