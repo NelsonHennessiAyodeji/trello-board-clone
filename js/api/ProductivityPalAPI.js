@@ -16,7 +16,7 @@ export default class ProductivityPalAPI {
     const item = {
       id: Math.floor(Math.random() * 100000),
       // itemContent: itemContent
-      itemContent
+      content: itemContent
     };
 
     if (!column) {
